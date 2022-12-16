@@ -5,4 +5,4 @@ Study for Data Analyst
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/MySQL-A3DCBE?style=flat-square&logo=Python&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Docker-FFA883?style=flat-square&logo=Python&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Git-B6DCB6?style=flat-square&logo=Python&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Git-FF6F3C?style=flat-square&logo=Python&logoColor=white"/></a>
