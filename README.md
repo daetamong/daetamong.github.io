@@ -9,4 +9,4 @@ Study for Data Analyst
 <img src="https://img.shields.io/badge/Git-FF6F3C?style=flat-square&logo=Git&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Apache-1572B6?style=flat-square&logo=Apache&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Airflow-1572B6?style=flat-square&logo=Airflow&logoColor=white"/></a>
