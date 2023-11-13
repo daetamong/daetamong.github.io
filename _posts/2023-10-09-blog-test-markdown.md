@@ -1,9 +1,9 @@
 ---
 layout: blog post
-title: 블로그 첫번째 글 작성 # "포스팅 들어가기 (전/후)의 제목"
-subtitle: 블로그 글 작성 테스트 # "포스팅 글에 들어갔을 때 소제목"
-categories: example # "포스팅 글 분류"
-tags: [archives] # "각 포스팅의 태그"
+title: P-value란? # "포스팅 들어가기 (전/후)의 제목"
+subtitle: p-value의 정의와 해석 방법에 대해 알아보자 # "포스팅 글에 들어갔을 때 소제목"
+categories: 통계학 # "포스팅 글 분류"
+tags: [통계학] # "각 포스팅의 태그"
 ---
 
 # 설명
