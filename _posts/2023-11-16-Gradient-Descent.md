@@ -37,7 +37,7 @@ tags: [머신러닝]
 
 > 1. MSE = $\frac1n\sum_{i=1}^n(y_i - \hat{y})^2$
 
-> 2. MAE = $\frac1n\sum_{i=1}^n|y_i - \hat{y}|$
+> 2. MAE = $\frac1n\sum_{i=1}^n\vert y_i - \hat{y}\vert$
 
 위 두 식의 차이는 제곱을 했는가 아니면 절대값을 씌었는가라는 차이점이 있는데, 물론 상황에 따라 다르겠지만 일반적으로는 제곱을 한 MSE를 주로 사용한다.
 
