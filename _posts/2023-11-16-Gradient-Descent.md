@@ -193,3 +193,5 @@ learning rate는 **학습률**이라고 불린다. learning rate를 사용하는
 <br>
 <hr>
 `다음 포스팅에서는 Gradient Descent를 직접 Python으로 구현해보는 실습을 해보도록 하겠다!!!`
+
+ref : https://www.youtube.com/watch?v=ve6gtpZV83E
