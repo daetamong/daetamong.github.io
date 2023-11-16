@@ -78,7 +78,7 @@ tags: [머신러닝]
 
 우선 첫 번째의 cost function을 MSE로 계산해보자!
 
-> MSE = $$ \frac1\n(wx_i + b - y_i)^2 = \frac13\(2^2 + 3^2 + 4^2) = \frac29/3$$
+> MSE = $\frac1n(wx_i + b - y_i)^2 = \frac13(2^2 + 3^2 + 4^2) = 29/3$
 
 앞으로 우리는 MSE를 cost function으로 사용할 것이다.
 
