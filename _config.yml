@@ -242,7 +242,11 @@ yat:
 markdown: kramdown
 kramdown:
   input: GFM
-  mathjax: true
+  # mathjax: true
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 plugins:
   - jekyll-feed
