@@ -2,8 +2,8 @@
 layout: post
 title: Gradient Descent(경사하강법)이란?
 subtitle: Gradient Descent의 개념에 대해 알아보자
-categories: MachineLearning
-tags: [MachineLearning]
+categories: 머신러닝
+tags: [머신러닝]
 ---
 
 `개인적으로 공부한 내용을 포스팅하기 때문에 잘못된 내용이 있을 수 있습니다. 만약 틀린 내용이 있다면 적극적인 피드백 부탁드립니다^^`
@@ -20,4 +20,16 @@ tags: [MachineLearning]
 
 그래서 왜 머신러닝, 딥러닝에서 경사하강법이 중요한 개념 중 하나로 인식되고 있는지, 그리고 이 개념을 실제 모델 학습에서 어떻게 쓰는지 차례차례 살펴보면서 이해해보려 한다.
 
-### Cost Function (=비용함수)
+### Cost Function(=비용함수)이란?
+
+여기서 또 새로운 개념이 하나가 더 있는데 '비용함수'라는 개념이 있다.
+
+비용함수는 **"최적의 가중치를 찾기 위한 기준이 되는 함수"**이다.
+
+머신러닝에서는 비용함수가 최소가 되도록 최적의 파라미터를 찾는 과정을 최적화라고 하는데, 이 떄 사용하는 기준이 비용함수이다.
+
+비용함수에도 여러가지 식이 있는데, 대표적인으로 MSE(Mean Squared Error, 평균 제곱 오차)와 MAE(Mean Absolute Error, 평균 절대 오차)가 있다.
+
+하나씩 살펴보자!
+
+> 1. 
