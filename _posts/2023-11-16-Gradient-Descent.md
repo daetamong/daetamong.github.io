@@ -2,8 +2,8 @@
 layout: post
 title: Gradient Descent(경사하강법)이란?
 subtitle: Gradient Descent의 개념에 대해 알아보자
-categories: Machine Learning
-tags: [Machine Learning]
+categories: MachineLearning
+tags: [MachineLearning]
 ---
 
 `개인적으로 공부한 내용을 포스팅하기 때문에 잘못된 내용이 있을 수 있습니다. 만약 틀린 내용이 있다면 적극적인 피드백 부탁드립니다^^`
@@ -20,4 +20,4 @@ tags: [Machine Learning]
 
 그래서 왜 머신러닝, 딥러닝에서 경사하강법이 중요한 개념 중 하나로 인식되고 있는지, 그리고 이 개념을 실제 모델 학습에서 어떻게 쓰는지 차례차례 살펴보면서 이해해보려 한다.
 
-### 
+### Cost Function (=비용함수)
