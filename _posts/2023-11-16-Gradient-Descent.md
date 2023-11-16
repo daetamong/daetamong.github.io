@@ -138,7 +138,7 @@ tags: [머신러닝]
 
 수식을 다시 써보면..
 
-> $W := W -/+ (\eta) \cdot \frac{\partial Cost(W,b)}$
+> $W := W -/+ (\eta) \cdot \frac{\partial Cost(W,b)}{\partial W}$
 
 이전 step의 W에서 기울기가 음수이면 더해주고, 양수이면 빼주면서 조금씩 globla optimum으로 수렴하는 방향으로 계산을 이어나가면 된다.
 
@@ -154,7 +154,7 @@ learning rate는 **학습률**이라고 불린다. learning rate를 사용하는
 
 발산하는 문제를 좀 더 자세히 살펴보자!
 
-우리는 매 최적화 단계마다 기울기를 구하게 되는데, $W := W -/+ (\eta) \cdot \frac{\partial Cost(W,b)}$ 의 식처럼 다음 step으로 넘어가기 위한 이동거리를 빼주거나 더해줘야 한다.
+우리는 매 최적화 단계마다 기울기를 구하게 되는데, $W := W -/+ (\eta) \cdot \frac{\partial Cost(W,b)}{\partial W}$ 의 식처럼 다음 step으로 넘어가기 위한 이동거리를 빼주거나 더해줘야 한다.
 
 이 때의 이동거리는 이전 단계에서 구한 기울기로 사용한다. 그 이유는 기울기가 극소값(=Global optimum)게 가까워질수록 그 값은 작아지기 때문이다.
 
