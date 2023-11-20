@@ -106,6 +106,7 @@ tags: [머신러닝]
 ![do-messenger_screenshot_2023-11-16_16_56_10](https://github.com/daetamong/daetamong.github.io/assets/111731468/6c59c474-a0ff-4615-b00c-bc1f6e1457f2)
 
 > 기울기가 음수라면, 오른쪽으로 이동
+
 > 기울기가 양수라면, 왼쪽으로 이동
 
 위와 같은 과정을 반복하면서 즉, cost를 계산해나가면서 기울기가 0인 지점을 점차적으로 찾아나가야 한다.
