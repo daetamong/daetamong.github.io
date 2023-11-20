@@ -240,10 +240,8 @@ yat:
 # Build settings
 # highlighter: none
 markdown: kramdown
-# mathjax: true
 kramdown:
   input: GFM
-# use_math: true
 
 plugins:
   - jekyll-feed
