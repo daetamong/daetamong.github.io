@@ -156,6 +156,8 @@ plt.ylabel('Error')
 plt.show()
 ```
 
+![image](https://github.com/daetamong/daetamong.github.io/assets/111731468/f3fab178-b0af-4c94-980d-ce9a38987c9f)
+
 위의 그림처럼 학습을 많이 할수록 error값이 계속 줄어드는 것을 확인할 수 있다.
 
 아마 epoch을 더 늘리면 거의 0에 수렴하지 않을까?라는 생각이 들지만 귀찮으니 pass!
