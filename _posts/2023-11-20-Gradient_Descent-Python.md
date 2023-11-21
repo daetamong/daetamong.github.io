@@ -86,7 +86,7 @@ y_hat = weight * x + bias
 
 python 코드와의 비교를위해 다시 한번 MSE의 식을 복습 차원에서 적고 넘어가자. 
 
-> MSE = $\frac1n(wx_i + b - y_i)^2
+> MSE = $\frac1n(wx_i + b - y_i)^2$
 
 
 ```python
