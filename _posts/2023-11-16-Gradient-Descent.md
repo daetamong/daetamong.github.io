@@ -174,7 +174,8 @@ learning rate는 **학습률**이라고 불린다. learning rate를 사용하는
 
 대략 0.001, 0.01 등과 같은 적은 수를 지정해준다.
 
-![do-messenger_screenshot_2023-11-16_17_23_26](https://github.com/daetamong/daetamong.github.io/assets/111731468/4f0dbcf9-2640-4843-8ecd-7541453a6978)
+![do-messenger_screenshot_2023-11-21_08_42_18](https://github.com/daetamong/daetamong.github.io/assets/111731468/9de8cb31-ec7c-4a54-bb3e-96ed22e73499)
+
 
 만약 learning rate를 큰 값으로 지정해준다면, 왼쪽의 그래프처럼 이동거리가 커지면서 global optimum으로 수렴하지 않고 발산하는 경우가 생길 수가 있다. 
 
