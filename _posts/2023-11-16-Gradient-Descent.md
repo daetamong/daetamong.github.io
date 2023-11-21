@@ -181,6 +181,15 @@ learning rate는 **학습률**이라고 불린다. learning rate를 사용하는
 
 반대로 learning rate를 엄청 작은 값으로 해준다면, 극소값으로 갈 수는 있겠지만, 수많은 과정을 반복함으로써 연산량도 많아질뿐더러 "local minima"에 빠지는 문제가 생길 수 있다.
 
+아래의 그림은 learning rate가 작아서 local minima에 빠졌을 때를 보여주는 예시이다.
+
+![do-messenger_screenshot_2023-11-21_09_30_35](https://github.com/daetamong/daetamong.github.io/assets/111731468/0bd016f4-7366-4f16-8414-0d41291e0fe4)
+
+
+너무 적은 learning rate로 학습을 할 경우, 우리가 궁극적으로 찾는 global optimum까지 가지 못하고 local minima와 같은 수렁(?)에 빠지게 됨으로써 최소한의 cost를 찾을 수가 없게 되는 것이다.
+
+다시 말해, 최적의 성능을 얻을 수 없다는 말과 일맥상통하겠다.
+
 따라서 우리는 힘들겠지만? 적절한 learning rate를 찾는 것도 중요하게 생각해둬야 할 필요가 있다.
 
 
