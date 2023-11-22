@@ -40,12 +40,19 @@
   placeholder.parentNode.replaceChild(utterancesScript, placeholder);
 </script>
 {%- else -%}
-<script async
+<!-- <script async
         crossorigin="anonymous"
         issue-term="{{ site.utterances.issue_term }}"
         label="{{ site.utterances.label }}"
         repo="{{ site.utterances.repo }}"
         src="https://utteranc.es/client.js"
         theme="{{ site.utterances.theme }}">
- </script>
+ </script> -->
+ <script src="https://utteranc.es/client.js"
+        repo="daetamong/daetamong.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 {%- endif -%}
