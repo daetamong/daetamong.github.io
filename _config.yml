@@ -231,11 +231,11 @@ yat:
 # set follow_site_theme true to make utterances' theme follow the site's
 
 # utterances:
-repo: "daetamong/daetamong.github.io"
-issue_term: "pathname"
-label: "utterances comment"
-theme: "github-light"
-follow_site_theme: true
+#   repo: "owner/repo"
+#   issue_term: "title"
+#   label: "utterances comment"
+#   theme: "github-light"
+#   follow_site_theme: true
 
 # Build settings
 # highlighter: none
