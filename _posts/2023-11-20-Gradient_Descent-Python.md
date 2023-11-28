@@ -167,4 +167,4 @@ plt.show()
 <hr>
 
 
-ref = https://teddylee777.github.io/scikit-learn/gradient-descent/
+ref : https://teddylee777.github.io/scikit-learn/gradient-descent/
