@@ -251,4 +251,7 @@ Haruru가 35살로 나이를 먹었다ㅠㅠ... 그래서 인스턴스 변수를
 
 
 ref : https://blog.naver.com/codeitofficial/221695196435
+
 ref : https://www.daleseo.com/python-property/
+
+ref : https://cocook.tistory.com/103
