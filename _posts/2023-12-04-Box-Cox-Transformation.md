@@ -42,9 +42,9 @@ tags: [통계학]
 ![image](https://github.com/daetamong/daetamong.github.io/assets/111731468/e6bdaa6b-f0e7-4c15-b64d-072f8635dcf7)
 
 
-아마 머신러닝을 공부했다면 데이터를 정규분포에 가깝도록 처리해줘야 모델 성능이 올라간다는 것을 알고 있을 것이다. 왜 그런지도 나중에 포스팅할 예정이다.
+아마 머신러닝을 공부했다면 데이터를 정규분포에 가깝도록 처리해줘야 모델 성능이 올라간다는 것을 알고 있을 것이다. (왜 그런지도 나중에 포스팅할 예정이다.)
 
-
+그래서 우리는 위와 같은 분포를 가지는 데이터를 정규분포로 만드는 방법을 알아볼 예정이다.
 
 ### Box-Cox Transformation이란?
 
@@ -55,7 +55,8 @@ tags: [통계학]
 양수인 반응변수 $y = (y_{1}, y_{2}, ... , y_{n})^{t}$ 에 대하여 Box-Cox 변환($y_{i}(\lambda)$)은 다음과 같이 정의된다.
 
 $ y_{i}(\lambda) = \begin{cases} \frac{y_{i}^{\lambda}-1}{\lambda} & \text{if } \lambda \ne 0 \\
-    log(y_{i}) \text{if } \lambda = 0 \end{cases} $
+
+log(y_{i}) \text{if } \lambda = 0 \end{cases} $
 
 식을 보면 람다값만 정해지면 변수변환을 할 수 있다. 즉, 람다는 하나의 파라미터임과 동시에 람다에 어떤 값을 지정해주느냐에 따라 여러 형태의 변수 변환법이 될 수 있다.
 
