@@ -54,9 +54,7 @@ tags: [통계학]
 
 양수인 반응변수 $y = (y_{1}, y_{2}, ... , y_{n})^{t}$ 에 대하여 Box-Cox 변환($y_{i}(\lambda)$)은 다음과 같이 정의된다.
 
-$ y_{i}(\lambda) = \begin{cases} \frac{y_{i}^{\lambda}-1}{\lambda} & \text{if } \lambda \ne 0 \\
-
-log(y_{i}) \text{if } \lambda = 0 \end{cases} $
+$ y_{i}(\lambda) = \begin{cases} \frac{y_{i}^{\lambda}-1}{\lambda} & \text{if } \lambda \ne 0\\ log(y_{i}) \text{if } \lambda = 0 \end{cases} $
 
 식을 보면 람다값만 정해지면 변수변환을 할 수 있다. 즉, 람다는 하나의 파라미터임과 동시에 람다에 어떤 값을 지정해주느냐에 따라 여러 형태의 변수 변환법이 될 수 있다.
 
