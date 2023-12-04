@@ -52,6 +52,6 @@ tags: [통계학]
 
 우선 Box-Cox 변환의 식은 다음과 같다.
 
-양수인 반응변수 $y = (y_{1}, y_{2}, ... , y_{n})^{t}$ 에 대하여 Box-Cox 변환($y_{i}\\(\Lambda)$)은 다음과 같이 정의된다.
+양수인 반응변수 $y = (y_{1}, y_{2}, ... , y_{n})^{t}$ 에 대하여 Box-Cox 변환($y_{i}(\lambda)$)은 다음과 같이 정의된다.
 
-$\[ y_{i}\\(\Lambda) = \begin{cases} \frac{y_{i}^{\Lambda}-1}{\Lambda} & \text{if} \,\, \Lambda \ne 0 \\ log_y_{i} \text{if} \,\, \Lambda = 0 \end{cases} \]$
+$ y_{i}(\lambda) = \begin{cases} \frac{y_{i}^{\lambda}-1}{\lambda} & \text{if} \,\, \lambda \ne 0 \\ log_y_{i} \text{if} \,\, \lambda = 0 \end{cases} $
