@@ -78,7 +78,10 @@ tags: [딥러닝]
 여기서 p는 norm의 차수, n은 벡터의 차원 수를 의미하는데, p의 차수에 따라서 Lp norm의 형태는 아래의 그림과 같이 각각 다르게 만들어진다.
 
 ![do-messenger_screenshot_2023-12-14_15_39_37](https://github.com/daetamong/daetamong.github.io/assets/111731468/8e6822e3-5a5e-4db2-8fd7-56d073a82197)
+
 <center>https://ekamperi.github.io/machine%20learning/2019/10/19/norms-in-machine-learning.html</center>
+
+<br>
 
 p가 1일 때는 마름모, 2일 때는 원형, 3일 떄는 뚱뚱한 원 그리고 100일 떄는 정사각형에 가까운 형태로 p차원이 커질수록 점점 정사각형에 가까워지는 형태를 띄고 있다.
 
