@@ -31,7 +31,7 @@ tags: [딥러닝]
 
 과적합은 OverFitting이라고도 불리는데, 모델을 개발할 때 train과 test 데이터로 나눈 뒤에 train 데이터로 모델을 학습하고 test 데이터로 개발한 모델의 성능을 확인하는 것이 일반적이다.
 
-아래의 그래프를 먼저 보자
+아래의 그래프를 먼저 보자. (그래프가 너무 이상하다..)
 
 ![do-messenger_screenshot_2023-12-14_13_44_53](https://github.com/daetamong/daetamong.github.io/assets/111731468/d306c8c1-2eaa-421f-834b-8d945eaa7dd9)
 
@@ -78,6 +78,7 @@ tags: [딥러닝]
 여기서 p는 norm의 차수, n은 벡터의 차원 수를 의미하는데, p의 차수에 따라서 Lp norm의 형태는 아래의 그림과 같이 각각 다르게 만들어진다.
 
 ![do-messenger_screenshot_2023-12-14_15_39_37](https://github.com/daetamong/daetamong.github.io/assets/111731468/8e6822e3-5a5e-4db2-8fd7-56d073a82197)
+<center>https://ekamperi.github.io/machine%20learning/2019/10/19/norms-in-machine-learning.html</center>
 
 p가 1일 때는 마름모, 2일 때는 원형, 3일 떄는 뚱뚱한 원 그리고 100일 떄는 정사각형에 가까운 형태로 p차원이 커질수록 점점 정사각형에 가까워지는 형태를 띄고 있다.
 
