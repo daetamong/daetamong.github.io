@@ -31,7 +31,7 @@ tags: [딥러닝]
 
 과적합은 OverFitting이라고도 불리는데, 모델을 개발할 때 train과 test 데이터로 나눈 뒤에 train 데이터로 모델을 학습하고 test 데이터로 개발한 모델의 성능을 확인하는 것이 일반적이다.
 
-아래의 그래프를 먼저 보자. (그래프가 너무 이상하다..)
+아래의 그래프를 먼저 보자. (대충 그렸는데 그래프가 너무 이상하다..)
 
 ![do-messenger_screenshot_2023-12-14_13_44_53](https://github.com/daetamong/daetamong.github.io/assets/111731468/d306c8c1-2eaa-421f-834b-8d945eaa7dd9)
 
