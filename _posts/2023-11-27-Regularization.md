@@ -146,3 +146,7 @@ L2 norm은 L1 norm과는 반대로, 하나의 목적지를 가는 데 있어서 
 이번 포스팅은 내용이 많기도 하고 어렵기 떄문에 나눠서 포스팅을 정리하려고 한다.
 
 다음 포스팅에서는 L1 norm과 L2 norm을 활용한 regularization에 대해 자세히 알아보자
+
+<br>
+
+ref : https://seongyun-dev.tistory.com/52
