@@ -102,6 +102,8 @@ L1 loss는 실제값과 예측값 오차들의 절대값들에 대한 합을 의
 
 <center>https://rfriend.tistory.com/199</center>
 
+<br>
+
 위의 그림처럼 L1 norm은 하나의 목적지를 가는 데 있어서 여러가지 경로가 존재한다.
 
 
@@ -117,6 +119,8 @@ L2 loss는 실제값과 예측값 오차들의 제곱의 합을 의미한다.
 ![do-messenger_screenshot_2023-12-18_17_28_39](https://github.com/daetamong/daetamong.github.io/assets/111731468/f56dc35e-3f9c-4746-81bc-84b3fa6cce8a)
 
 <center>https://rfriend.tistory.com/199</center>
+
+<br>
 
 L2 norm은 L1 norm과는 반대로, 하나의 목적지를 가는 데 있어서 하나의 방법만 존재한다.
 
