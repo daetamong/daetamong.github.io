@@ -37,8 +37,33 @@ tags: [딥러닝]
 
 > $ Cost = sum_{i=0}^N(y_{i} - sum_{j=0}^M(x_{ij}W_{j}))^2 + \lambda sum_{j=0}^M \vert W_{j} \vert $
 
+앞의 식은 일반적인 Cost function임을 알 수 있다.
+
+하지만 우리가 알고 있는 cost function하고는 살짝 다르다.
+
+뒤에 추가된 식을 보면 가중치의 합의 절대값을 더해주고 있는데, 여기가 위에서 말한 가중치에 패널티를 부여하는 부분이라고 보면 되겠다.
+
+다음은 L2 regularization을 보자!
+
+
+### L2 Regularization이란?
+
+L1은 가중치의 절대값의 합을 더해준다고 했다.
+
+하지만 L2는 절대값이 아닌 제곱의 합을 더해준다.
+
+이렇게 되면 weight의 크기에 따라 더 많은 패널티를 부여하는 weight decay 방식이 적용된다. 따라서 weight에 따라 패널티가 다르게 부여되기 때문에 L1 보다는 규제의 효과가 더 크다는 특징이 있다.
+
+식을 살펴보자!
+
+> $ Cost = sum_{i=0}^N(y_{i} - sum_{j=0}^M(x_{ij}W_{j}))^2 + \lambda sum_{j=0}^M W_{j}^2 $
 
 
 <br>
+
+### 규제 영역과 Loss Function의 관계
+
+
+![image](https://github.com/daetamong/daetamong.github.io/assets/111731468/ee8ec887-d986-4f2a-94e9-454dd4b2c731)
 
 ref : https://seongyun-dev.tistory.com/52
