@@ -90,3 +90,52 @@ p가 1일 때는 마름모, 2일 때는 원형, 3일 떄는 뚱뚱한 원 그리
 L1 / L2 norm에 대해 좀 더 자세히 알아보자!!
 
 
+### L1 norm
+
+L1 norm은 맨하탄 거리로 불리기도 하며, 두 벡터 간의 최단 거리를 구하는데 사용되는 방법이다.
+
+L1 loss는 실제값과 예측값 오차들의 절대값들에 대한 합을 의미한다.
+
+>
+
+![do-messenger_screenshot_2023-12-18_17_24_25](https://github.com/daetamong/daetamong.github.io/assets/111731468/60de789d-8eb5-4651-bc78-7c278507b217)
+
+<center>https://rfriend.tistory.com/199</center>
+
+위의 그림처럼 L1 norm은 하나의 목적지를 가는 데 있어서 여러가지 경로가 존재한다.
+
+
+
+### L2 norm
+
+그렇다면 L2 norm은 L1 norm과 어떤 차이가 있을끼?
+
+L2 norm은 아마 많이 들어봤을텐데 유클리드 거리라고 불리며, L1 norm과 마찬가지로 두 점 사이의 최단 거리를 구할 떄 사용되는 방법이다.
+
+L2 loss는 실제값과 예측값 오차들의 제곱의 합을 의미한다.
+
+![do-messenger_screenshot_2023-12-18_17_28_39](https://github.com/daetamong/daetamong.github.io/assets/111731468/f56dc35e-3f9c-4746-81bc-84b3fa6cce8a)
+
+<center>https://rfriend.tistory.com/199</center>
+
+L2 norm은 L1 norm과는 반대로, 하나의 목적지를 가는 데 있어서 하나의 방법만 존재한다.
+
+그리고 수식을 보면 알겠지만 L2 norm은 오차에 제곱을 해주기 때문에 outlier에 좀 더 많은 영향을 받는다.
+
+이 두 방법의 차이점을 정리해보자면,,
+
+미분에서도 차이가 있다. L1 norm은 절대값으로 구하기 때문에 미분이 불가능하여 편미분 과정에서 weight의 부호만 바뀌기 때문에 weight의 크기에 따라 규제가 크게 변하지 않기 때문에 Regularization의 효과가 L2 norm에 비해 작다는 단점이 있다.
+
+반대로 L2 norm은 제곱을 사용하기 떄문에 weight의 부호뿐만 아니라 값도 크게 바뀔 수 있기 떄문에 그 만큼 패널티를 줄 수 있고, 규제를 좀 더 효과적으로 줄 수 있다.
+
+따라서 특정 weight가 커지는 것을 방지하는 weight decay가 가능해진다.
+
+이려한 여러 특징들 때문에 L2 norm이 여러 측면에서 보다 효과적이기 때문에 L1 norm보다는 L2 norm을 더 많이 사용한다.
+
+그렇다고 해서 L1 norm의 장점이 없는 것은 아니다. L1 norm의 경우에는 목적지로 가는 여러 방법 중 특정 방법을 0으로 처리하는 것이 가능하기 때문에 특정 weight만 남길 수 있다. 따라서 일반적으로 언급되는 feature selection이 가능하다는 장점이 있다.
+
+그렇기에 무조건 L2 norm을 써야지!! 보다는 상황과 데이터 특성, 분석 목적에 맞게 적절한 방법을 사용하는 것이 좋겠다.
+
+이번 포스팅은 내용이 많기도 하고 어렵기 떄문에 나눠서 포스팅을 정리하려고 한다.
+
+다음 포스팅에서는 L1 norm과 L2 norm을 활용한 regularization에 대해 자세히 알아보자
