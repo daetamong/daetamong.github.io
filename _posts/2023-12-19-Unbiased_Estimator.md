@@ -75,6 +75,6 @@ $E(s^2) = \sigma^2$ 와 같이 표현할 수 있을 것이다.
 
 > $ = \frac1n \sum_{i=1}^n E(X_{i}^2) - E(\bar X^2)$
 
-> $ = \frac1n \sum_{i=1}^n(\mu^2 + \sigma^2) - (\mu^2 + \frac\(sigma^2)n) $
+> $ = \frac1n \sum_{i=1}^n(\mu^2 + \sigma^2) - (\mu^2 + \frac(\sigma^2)n) $
 
 > $ = \frac(n-1)n \sigma^2$
