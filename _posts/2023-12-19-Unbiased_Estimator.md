@@ -67,6 +67,14 @@ $E(s^2) = \sigma^2$ 와 같이 표현할 수 있을 것이다.
 
 > $E(s^2) = E(\frac1n \sum_{i=1}^n (X_{i} - \bar X)^2)$
 
-> $ = \frac1n E(\sum_{i=1}^n(X_{i}^2 - 2X_{i}\barX + \bar X^2)) $
+> $ = \frac1n E(\sum_{i=1}^n(X_{i}^2 - 2X_{i}\bar X + \bar X^2)) $
 
-> $ = \frac1n E(\sum_{i=1}^n(X_{i}^2))$
+> $ = \frac1n E(\sum_{i=1}^n(X_{i}^2) - 2\bar X \sum_{i=1}^nX_{i} + \sum_{i=1}^n \bar X)$
+
+> $ = \frac1n E(\sum_{i=1}^n X^2 - 2n \bar X^2 + n \bar X^2) $
+
+> $ = \frac1n \sum_{i=1}^n E(X_{i}^2) - E(\bar X^2)$
+
+> $ = \frac1n \sum_{i=1}^n(\mu^2 + \sigma^2) - (\mu^2 + \frac\(sigma^2)n) $
+
+> $ = \frac(n-1)n \sigma^2$
