@@ -85,6 +85,10 @@ L1 regularization도 마찬가지지만 $ \lambda $ 를 매우 크게 하면 모
 
 <center>https://medium.com/m/global-identity-2?redirectUrl=https%3A%2F%2Fmedium.datadriveninvestor.com%2Fthe-art-of-regularization-caca8de7614e</center>
 
+<br>
+
+### Lasso / Ridge Regression Model
+
 어떻게 보면 가장 중요한 개념을 마지막에 소개하는 것 같은데,, 어쨋든,,
 
 회귀를 짧게나마 공부해본 사람이라면 Lasso(라쏘)와 Ridge(릿지) 회귀 모형이라는 이름을 들어 본 적 있을 것이다.
@@ -95,8 +99,8 @@ L1 regularization도 마찬가지지만 $ \lambda $ 를 매우 크게 하면 모
 
 | 모델 | 규제 | 장점 | 단점 | 특징 |
 | ----: | --------------: | ---------: | -----: |
-|Lasso | L1 Regularization | - 변수 선택이 가능하다 | - L2에 비해 효과가 떨어짐 |- 변수 간 상관관계가 높으면 효과가 떨어진다| |
-|Ridge | L2 Regularization | - 모델의 전반적인 복잡도를 줄여준다 | - 변수 선택이 불가능하다 |- 변수 간 상관관계와 상관없이 효과가 좋다| | 
+|Lasso | L1 Regularization | - 변수 선택이 가능하다 | - L2에 비해 효과가 떨어짐 |- 변수 간 상관관계가 높으면 효과가 떨어진다|
+|Ridge | L2 Regularization | - 모델의 전반적인 복잡도를 줄여준다 | - 변수 선택이 불가능하다 |- 변수 간 상관관계와 상관없이 효과가 좋다|
 
 두 모델 모두 각각의 장단점이 있으니 뭐가 무조건 정답이라는 것이 없다. 그렇기에 상황에 맞게 적잘한 모델이나 방식을 사용하면 되겠다.
 
