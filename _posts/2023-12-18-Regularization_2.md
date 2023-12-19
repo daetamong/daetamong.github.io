@@ -35,7 +35,7 @@ tags: [딥러닝]
 
 일단, 식을 한번 살펴보자
 
-> $ Cost = sum_{i=0}^N(y_{i} - \sum_{j=0}^M(x_{ij}W_{j}))^2 + \lambda \sum_{j=0}^M \vert W_{j} \vert $
+> $ Cost = \sum_{i=0}^N(y_{i} - \sum_{j=0}^M(x_{ij}W_{j}))^2 + \lambda \sum_{j=0}^M \vert W_{j} \vert $
 
 앞의 식은 일반적인 Cost function임을 알 수 있다.
 
@@ -56,7 +56,7 @@ L1은 가중치의 절대값의 합을 더해준다고 했다.
 
 식을 살펴보자!
 
-> $ Cost = sum_{i=0}^N(y_{i} - \sum_{j=0}^M(x_{ij}W_{j}))^2 + \lambda \sum_{j=0}^M W_{j}^2 $
+> $ Cost = \sum_{i=0}^N(y_{i} - \sum_{j=0}^M(x_{ij}W_{j}))^2 + \lambda \sum_{j=0}^M W_{j}^2 $
 
 L1 regularization도 마찬가지지만 $ \lambda $ 를 매우 크게 하면 모든 weight가 0이 되기 때문에 최종적으로 모델은 직선 모델이 된다.
 
