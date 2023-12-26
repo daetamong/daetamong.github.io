@@ -56,7 +56,7 @@ tags: [통계학]
 
 $y_{i}(\lambda) =
 \begin{cases}
-    \frac{y_{i}^{\lambda}-1}{\lambda}, & \text{if } \lambda \ne 0 \\
+    frac{y_{i}^{\lambda}-1}{\lambda}, & \text{if } \lambda \ne 0, \\
     log(y_{i}), & \text{if } \lambda = 0
 \end{cases}$
 
