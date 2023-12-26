@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 공부할 때 도움을 많이 받고 있는 블로그
-subtitle: 도움 많이 받고 있습니다!
-categories: 개인 공부
-tags: [개인 공부]
+title: Matrix Factorization은 무엇인가?
+subtitle: Matrix Factorization에 대해서 알아보자!
+categories: 추천시스템
+tags: [추천시스템]
 ---
 
 `개인적으로 공부한 내용을 포스팅하기 때문에 잘못된 내용이 있을 수 있습니다. 만약 틀린 내용이 있다면 적극적인 피드백 부탁드립니다^^`
