@@ -113,3 +113,4 @@ L1 regularization도 마찬가지지만 $ \lambda $ 를 매우 크게 하면 모
 <br>
 
 ref : https://seongyun-dev.tistory.com/52
+ref : https://www.youtube.com/watch?v=pJCcGK5omhE&t=21s
