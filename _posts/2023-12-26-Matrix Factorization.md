@@ -52,16 +52,3 @@ SVD는 아래의 그림과 같이 하나의 행렬(NxM)을 3개의 행렬의 곱
 ### Matrix Factorization은 무엇일까?
 MF에 대해서 간단한 개념과 장점을 알아봤으니 정확히 어떤 알고리즘을 타고 있는지 알아보자.
 
-* 추천시스템
-- MF (+SVD)
-- FM
-- 최신 추천시스템 모델 (item2vec etc)
-- 학위 논문 관련 추천시스템
-
-* 머신러닝
-- Isolation Forest
-- XGBoost
-
-* 딥러닝
-- LSTM (학술지 논문 관련)
-- 
