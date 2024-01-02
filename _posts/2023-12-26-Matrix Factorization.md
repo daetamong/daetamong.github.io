@@ -14,7 +14,13 @@ tags: [추천시스템]
 
 우선, 추천시스템을 조금이라도 공부해봤다면 알게 되는 개념이 있는데, 이번 포스팅에서는 MF(Matrix Factorization)에 대해서 공부를 해보자!
 
+
 ### Matrix Factorization은 어떤 아이디어를 기반으로 했을까?
+
+![image](https://github.com/daetamong/daetamong.github.io/assets/111731468/84772dd5-7707-44f6-92fb-ad9441c1d673)
+
+<center>https://medium.com/@rebirth4vali/implementing-matrix-factorization-technique-for-recommender-systems-from-scratch-7828c9166d3c</center>
+
 MF는 간단하게 말하자면 User(m명)와 Item(n개) 간의 평가 정보로 이루어진 하나의 Mxn행렬을 User Latent matrix와 Item Latent Matrix로 분해하는 기법을 의미한다.
 
 다시 말해, User Latent Matrix와 Item Latent Matrix의 역행렬을 곱해서 다시 User-Item Matrix의 추측된 행렬을 구하면 원래의 근사값을 구할 수 있다는 아이디어에서 기반한 방식이다.
