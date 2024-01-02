@@ -72,3 +72,11 @@ MF에 대해서 알아보기 전에 왜 한때(?) 추천시스템 분야에서 �
 ### Matrix Factorization은 무엇일까?
 MF에 대해서 간단한 개념과 장점을 알아봤으니 정확히 어떤 알고리즘을 타고 있는지 알아보자.
 
+![image](https://github.com/daetamong/daetamong.github.io/assets/111731468/2b2560fb-07ca-41cf-8ce6-456b0420546e)
+
+
+
+
+
+ref : https://yeong-jin-data-blog.tistory.com/entry/%EC%B6%94%EC%B2%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Matrix-Factorization
+ref : https://medium.com/@rebirth4vali/implementing-matrix-factorization-technique-for-recommender-systems-from-scratch-7828c9166d3c
