@@ -33,7 +33,17 @@ MF는 간단하게 말하자면 위의 그림과 같이 User(m명)와 Item(n개)
 
 와 같이 user 행렬과 item 행렬의 내적을 통해서 "유저U의 아이템I에 대한 평가"에 관한 행렬을 다시 복구시킬 수 있게 된다.
 
-하지만, 원본과 완벽히 동일한 결과를 얻을 수는 없다. "얘네들(=기존의 행렬 값)로 봤을 때 대충~ 이 정도의 값이면 될 거 같은데?"라는 컨셉이 Matrix Factorization이라고 보면 되겠다.
+하지만, 원본과 완벽히 동일한 결과를 얻을 수는 없다.
+
+아래의 그림과 같이 "얘네들(=기존의 행렬 값)로 봤을 때 대충~ 이 정도의 값이면 될 거 같은데?"라는 컨셉이 Matrix Factorization이라고 보면 되겠다.
+
+![image](https://github.com/daetamong/daetamong.github.io/assets/111731468/e5158757-4afd-4c51-8121-07b70169efb2)
+
+
+그 다음, 두 행렬의 내적을 통해 완벽한 원본 행렬은 아니더라도 원본과 비슷한 형태로 값이 지정이 된다.
+
+![image](https://github.com/daetamong/daetamong.github.io/assets/111731468/85d94a47-1a1e-4e87-bd73-dfcf4c0662de)
+
 
 그리고, 위의 그림에서 $ feature1 $ 과 $ feature2 $ 로 되어 있는데, 예시에서는 2개를 지정했지만 임의로(=k개) 지정해줄 수가 있다.
 
