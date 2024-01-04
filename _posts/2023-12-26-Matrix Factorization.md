@@ -108,6 +108,23 @@ MF에 대해서 간단한 개념과 장점을 알아봤으니 정확히 어떤 �
 
 이제, 우리가 구해야 하는 $e$ 를 최소화하는 $p와 q$ 를 구하기 위해서 보통 경사하강법을 사용하는데 각각에 대하여 편미분을 진행한다.
 
+> $\frac{\partial}{\partial p_{ik}}e_{ij}^2 = -2(r_{ij} - \hat r_{ij})(q_{kj}) = -2e_{ij}q_{kj}$
+
+> $\frac{\partial}{\partial q_{ik}}e_{ij}^2 = -2(r_{ij} - \hat r_{ij})(p_{ik}) = -2e_{ij}p_{ik}$
+
+업데이트된 $p_{ik}$ 와 $ q_{ik}$ 는 다음과 같이 표현이 가능하다. 여기서 $\alpha$ 는 learning rate라고 보면 된다.
+
+이러한 과정을 행렬에 존재하는 모든 user와 item에 대해서 오차가 최소가 될 때까지 반복한다.
+
+그런데 아까 위에서 언급했던 것처럼 규제를 더해줌으로써 과적합을 방지한다고 했었는데,
+
+규제를 더한 공식은 다음과 같다.
+
+> $p_{ik}^` = p_{ik} + \alpha \frac{\partial}{\partial p_{ik}}e_{ij}^2 = p_{ik} + 2\alpha e_{ij}q_{kj}$
+
+> $q_{ik}^` = q_{kj} + \alpha \frac{\partial}{\partial q_{kj}}e_{ij}^2 = q_{kj} + 2\alpha e_{ij}q_{ik}$
+
+최종적으로 우리는 오차를 최소화하는 p와 q를 구하면 원하는 행렬을 구할 수가 있게 된다.
 
 
 <br>

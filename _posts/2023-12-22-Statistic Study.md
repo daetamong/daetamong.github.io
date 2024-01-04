@@ -29,6 +29,7 @@ tags: [개인 공부]
 
 2. https://github.com/zzsza/Datascience-Interview-Questions#공통-질문
 
+
 이 분의 블로그는 굉장히 유명한 걸로 안다.
 
 통계뿐만 아니라 머신러닝, 딥러닝 등 광범위한 주제를 다루고 계신다.
@@ -38,3 +39,7 @@ tags: [개인 공부]
 이외에도 유익한 블로그 들이 많은데 어디 갔는지 링크들이 있는 파일을 찾지 못하고 있다 ㅠㅠ
 
 찾게 된다면 추가로 링크를 올려야지~!
+
+아 추가로, 블로그를 작성하면서 수식 작성에 도움이 되는 링크도 추가해 둔다.(매번 찾기 불편해서...)
+
+https://heekangpark.github.io/jekyll/09-mathjax#kramdown_%EB%AF%B8%EB%B6%84-%ED%8E%B8%EB%AF%B8%EB%B6%84-%EC%A0%81%EB%B6%84
