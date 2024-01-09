@@ -109,7 +109,7 @@ C는 우연히(?) 오렌지에 대한 평가가 없다. 하지만 우리는 이 
 
 즉, 두 벡터 간의 사잇각을 구해 얼마나 유사한지 계산하는 방식이다.
 
-> $Cos(\Theta) = \frac{A \cdot B}{\Vert A \Vert \Vert B \Vert}$ = $\frac{{\sqrt{sum_{i=1}^n(A_{i}^2)}} \times \sqrt{sum_{i=1}^n(B_{i}^2)}}{sum_{i=1}^n A_{i} \times B_{i}}$
+> $Cos(\Theta) = \frac{A \cdot B}{\Vert A \Vert \Vert B \Vert}$ = $\frac{sum_{i=1}^n A_{i} \times B_{i}}{{\sqrt{sum_{i=1}^n(A_{i}^2)}} \times \sqrt{sum_{i=1}^n(B_{i}^2)}}$
 
 
 3. 자카드 유사도
