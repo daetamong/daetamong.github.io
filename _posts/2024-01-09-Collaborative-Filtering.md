@@ -92,14 +92,40 @@ C는 우연히(?) 오렌지에 대한 평가가 없다. 하지만 우리는 이 
 
 유사도를 계산하는 방법은 대표적으로 3가지가 있다.
 
-1. 상관계수
+1. 상관계수 (Correlation coefficient)
 
-> $SIM(x, y) = \frac{sum_{i=1}^n (x_{i} - \bar x)(y_{i} - \bar y)}{\sqrt sum_{i=1}^n (x_{i} - \bar x)^2 sum_{i=1}^n (y_{i} - \bar y)^2}$
+상관계수는 두 변수 간의 상관관계를 의미하는 수치이다.
 
-2. 코사인, 피어슨
+상관계수는 -1에서 1의 값을 가지며 1에 가까울수록 양의 상관관계를 갖고 있고, -1에 가까울수록 음의 상관관계를 갖고 있다고 해석한다.
 
-3. 타니모토(자카드)
+식을 보면 두 변수 x와 y가 있을 때 $(x_{1}, y_{1}), (x_{2}, y_{2}) ..., (x_{n}, y_{n})$ 이 주어질 때, 상관계수는 다음과 같이 구할 수 있다.
 
+> $SIM(x, y) = \frac{sum_{i=1}^n (x_{i} - \bar x)(y_{i} - \bar y)}{\sqrt{sum_{i=1}^n (x_{i} - \bar x)^2 sum_{i=1}^n (y_{i} - \bar y)^2}}$
+
+
+2. 코사인 유사도 (Cosine Similarity)
+
+코사인 유사도는 일반적으로 두 벡터 간의 유사도를 계산할 때 사용한다.
+
+즉, 두 벡터 간의 사잇각을 구해 얼마나 유사한지 계산하는 방식이다.
+
+> $Cos(\Theta) = \frac{A \cdot B}{\Vert A \Vert \Vert B \Vert}$ = $\frac{{\sqrt{sum_{i=1}^n(A_{i}^2)}} \times \sqrt{sum_{i=1}^n(B_{i}^2)}}{sum_{i=1}^n A_{i} \times B_{i}}$
+
+
+3. 자카드 유사도
+
+자카드는 교집합을 합집합으로 나눈 값이다.
+
+> $J(A, B) = \frac{\vert A \cap B \vert}{\vert A \cup B \vert} = \frac{\vert A \cap B \vert}{\vert A \vert + \vert B \vert - \vert A \cap B \vert}$
+
+
+4. 타니모토 유사도
+
+타니모토 유사도는 데이터가 이진값일 때 주로 사용된다.
+
+타니모토 유사도는 자카드 유사도와 유사한다. 차이점은 타니모토 유사도에는 벡터화를 통해 가중치를 부여한다는 점이 있다.
+
+> $Tanimoto Coefficient = \frac{A \cdot B}{\vert A \vert^2 + \vert B \vert^2 - A \cdot B}$
 
 
 ### 모델 기반 협업필터링
