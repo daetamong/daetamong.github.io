@@ -106,9 +106,8 @@ C는 우연히(?) 오렌지에 대한 평가가 없다. 하지만 우리는 이 
 
 추천 로직은 크게 1) latent factor를 계산하여 추천하는 방식과 2) 분류/회귀를 통해 추천하는 방식이 있다.
 
-대표적인 방법은 SVD(특이점 분해, Single Value Decomposition)나, PCA를 사용할 수 있다. (이 개념들도 추후에 정리할 예정이다!)
+대표적인 방법은 이전 포스팅에서 정리했던 MF(Matrix Factorization)과 SVD(특이점 분해, Single Value Decomposition)나, PCA를 사용할 수 있다. (이 개념들도 추후에 정리할 예정이다!)
 
-[MF란?] (https://daetamong.github.io/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C/2023/12/26/Matrix-Factorization.html)
 
 
 
