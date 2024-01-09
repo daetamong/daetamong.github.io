@@ -159,3 +159,5 @@ ref : https://yeong-jin-data-blog.tistory.com/entry/%EC%B6%94%EC%B2%9C-%EC%95%8C
 ref : https://medium.com/@rebirth4vali/implementing-matrix-factorization-technique-for-recommender-systems-from-scratch-7828c9166d3c
 
 ref : https://greeksharifa.github.io/machine_learning/2019/12/20/Matrix-Factorization/
+
+ref : https://sungkee-book.tistory.com/12
