@@ -100,7 +100,7 @@ C는 우연히(?) 오렌지에 대한 평가가 없다. 하지만 우리는 이 
 
 식을 보면 두 변수 x와 y가 있을 때 $(x_{1}, y_{1}), (x_{2}, y_{2}) ..., (x_{n}, y_{n})$ 이 주어질 때, 상관계수는 다음과 같이 구할 수 있다.
 
-$SIM(x, y) = \frac{\sum_{i=1}^n (x_{i} - \bar x)(y_{i} - \bar y)}{\sqrt{\sum_{i=1}^n (x_{i} - \bar x)^2 \sum_{i=1}^n (y_{i} - \bar y)^2}}$
+$SIM(x, y) = \frac{\sum _{i=1}^n (x_{i} - \bar x)(y_{i} - \bar y)}{\sqrt{\sum _{i=1}^n (x_{i} - \bar x)^2 \sum _{i=1}^n (y_{i} - \bar y)^2}}$
 
 
 2. 코사인 유사도 (Cosine Similarity)
@@ -109,7 +109,7 @@ $SIM(x, y) = \frac{\sum_{i=1}^n (x_{i} - \bar x)(y_{i} - \bar y)}{\sqrt{\sum_{i=
 
 즉, 두 벡터 간의 사잇각을 구해 얼마나 유사한지 계산하는 방식이다.
 
-$Cos(\Theta) = \frac{A \cdot B}{\Vert A \Vert \Vert B \Vert} = \frac{\sum_{i=1}^n A_{i} \times B_{i}}{{\sqrt{\sum_{i=1}^n (A_{i}^2)}} \times \sqrt{\sum_{i=1}^n (B_{i}^2)}}$
+$Cos(\Theta) = \frac{A \cdot B}{\Vert A \Vert \Vert B \Vert} = \frac{\sum _{i=1}^n A_{i} B_{i}}{\sqrt{\sum _{i=1}^n (A_{i}^2)} \sqrt{\sum _{i=1}^n (B_{i}^2)}}$
 
 
 3. 자카드 유사도
