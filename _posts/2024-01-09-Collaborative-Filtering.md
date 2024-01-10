@@ -92,7 +92,7 @@ C는 우연히(?) 오렌지에 대한 평가가 없다. 하지만 우리는 이 
 
 유사도를 계산하는 방법은 대표적으로 3가지가 있다.
 
-1. 상관계수 (Correlation coefficient)
+#### 상관계수 (Correlation coefficient)
 
 상관계수는 두 변수 간의 상관관계를 의미하는 수치이다.
 
@@ -103,7 +103,7 @@ C는 우연히(?) 오렌지에 대한 평가가 없다. 하지만 우리는 이 
 $SIM(x, y) = \frac{\sum_{i=1}^n (x_{i} - \bar x)(y_{i} - \bar y)}{\sqrt{\sum_{i=1}^n (x_{i} - \bar x)^2 \sum_{i=1}^n (y_{i} - \bar y)^2}}$
 
 
-2. 코사인 유사도 (Cosine Similarity)
+#### 코사인 유사도 (Cosine Similarity)
 
 코사인 유사도는 일반적으로 두 벡터 간의 유사도를 계산할 때 사용한다.
 
@@ -112,14 +112,14 @@ $SIM(x, y) = \frac{\sum_{i=1}^n (x_{i} - \bar x)(y_{i} - \bar y)}{\sqrt{\sum_{i=
 $Cos(\Theta) = \frac{A \cdot B}{\Vert A \Vert \Vert B \Vert} = \frac{\sum_{i=1}^n A_{i} B_{i}}{\sqrt{\sum_{i=1}^n (A_{i}^2)} \sqrt{\sum_{i=1}^n (B_{i}^2)}}$
 
 
-3. 자카드 유사도
+#### 자카드 유사도
 
 자카드는 교집합을 합집합으로 나눈 값이다.
 
 $J(A, B) = \frac{\vert A \cap B \vert}{\vert A \cup B \vert} = \frac{\vert A \cap B \vert}{\vert A \vert + \vert B \vert - \vert A \cap B \vert}$
 
 
-4. 타니모토 유사도
+#### 타니모토 유사도
 
 타니모토 유사도는 데이터가 이진값일 때 주로 사용된다.
 
