@@ -22,25 +22,25 @@ Claude-code를 windows에서 사용하려면 wsl과 ubuntu 설치가 되어 있�
 
 ### WSL 설치 방법
 1. Windows PowerShell을 '관리자 권한으로 실행'
-
+---
 2. 아래 명령어 실행
 ```bash
 $ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 $ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
-
+---
 3. WSL --install 명령어 실행
 <br>
 <img width="859" height="365" alt="Image" src="https://github.com/user-attachments/assets/5616349b-f736-42fb-bc85-346768c3139b" />
 <br>
-
+---
 4. 아래 명령어 실행
 ```bash
 $ wsl.exe --install
 $ wsl.exe --update
 $ wsl --set-default-version 2
 ```
-
+---
 5. 에러 발생 시
 만약 위 명령어를 실행했을 때, "오류 코드: Wsl/WSL_E_WSL_OPTIONAL_COMPONENT_REQUIRED" 문구가 보인다면 필수 구성요소가 빠져 있다는 뜻이기 때문에 아래의 명령어를 실행하자!
 ```bash
@@ -48,7 +48,7 @@ $ dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V-All /all /nore
 $ shutdown /r /t 0 (재부팅)
 $ wsl --install (wsl 재설치)
 ```
-
+---
 6. Node.js 설치
 
 ```bash
@@ -61,7 +61,7 @@ $ # 설치 확인
 $ node --version
 $ npm --version
 ```
-
+---
 7. Node.js 설치 시 에러
 그리고 또 "Error: Access Denied" 에러가 뜬다면, npm이 글로벌 디렉토리(/usr/lib/node_modules)에 접근하려다 권한이 없어서 실패했을 때 발생한다.
 
@@ -86,10 +86,10 @@ $ source ~/.bashrc
 
 $ npm install -g @anthropic-ai/cli
 ```
-
+---
 8. ubuntu 설치
 link : https://apps.microsoft.com/search?query=ubuntu&hl=ko-KR&gl=KR
-
+---
 9. Claude code 초기 설정
 ```bash
 $ claude
