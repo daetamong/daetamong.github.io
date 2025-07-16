@@ -64,8 +64,11 @@ $ npm --version
 
 7. Node.js 설치 시 에러
 그리고 또 "Error: Access Denied" 에러가 뜬다면, npm이 글로벌 디렉토리(/usr/lib/node_modules)에 접근하려다 권한이 없어서 실패했을 때 발생한다.
+
 다시 말해, 현재 나에게 /usr/lib/node_modules/에 디렉터리를 만들 권한이 없다는 뜻이다.
+
 > -g : '글로벌 서치'
+> 
 > sudo : '루트 권한 부여'
 
 #### 방법 1.
