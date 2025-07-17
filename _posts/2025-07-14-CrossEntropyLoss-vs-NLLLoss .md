@@ -22,7 +22,7 @@ Pytorch로 손실함수를 구할 때, CrossEntropyLoss와 NLLLoss를 사용할 
 
 cross entropy는 예측 모형은 실제 분포인 q 를 모르고, 모델링을 하여 q 분포를 예측하고자 하는 것이다.
 
-> $ cost(W) = -\frac1n \sum_{i=1}^n\sum_{j=1}^k y_{i}&i log(p_{j}^i) $
+> $ cost(W) = -\frac1n \sum_{i=1}^{n}\sum_{j=1}^{k} y_{i}&i log(p_{j}^{i}) $
 
 그리고 NLLLoss는 주어진 예측과 실제 레이블 간의 손실을 계산합니다.
 
