@@ -18,10 +18,9 @@ Claude-code를 windows에서 사용하려면 wsl과 ubuntu 설치가 되어 있�
 
 본격적으로 claude-code를 사용하기 전에 필수요소들을 설치해두자!
 
-<hr>
-
+---
 ### WSL 설치 방법
-
+---
 1. Windows PowerShell을 '관리자 권한으로 실행'
 ---
 2. 아래 명령어 실행
