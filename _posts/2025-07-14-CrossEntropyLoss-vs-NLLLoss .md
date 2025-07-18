@@ -84,5 +84,7 @@ NLLLoss를 사용한 모델의 마지막 레이어는 log_softmax를 적용해�
 <hr>
 
 ref : https://wikidocs.net/60575
+
 ref : https://velog.io/@skyhelper/CrossEntorpyLoss-NLLLoss-%EB%AC%B4%EC%97%87%EC%9D%B4-%EB%8B%A4%EB%A5%B8%EA%B0%80
+
 ref : https://velog.io/@rcchun/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%81%AC%EB%A1%9C%EC%8A%A4-%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BCcross-entropy
